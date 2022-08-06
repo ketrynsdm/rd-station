@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="home.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-expand-md navbar-expand-lg navbar-light bg-light">
+        <div class="container container-navbar">
+            <div>
+                <svg width="174" height="32" viewBox="0 0 174 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M160.48 8.50066H164.328L171.15 19.7405H171.4L171.15 17.7484V8.50066H174V23.4941H170.152L163.329 12.2543H163.08L163.329 14.2464V23.4941H160.48V8.50066Z"
+                        fill="black" />
+                    <path
+                        d="M149.455 8C154.281 8 157.754 11.502 157.754 15.9895C157.754 20.4771 154.281 23.979 149.455 23.979C144.629 23.979 141.155 20.4771 141.155 15.9895C141.155 11.502 144.608 8 149.455 8ZM149.455 21.232C152.554 21.232 154.78 18.9882 154.78 15.9895C154.78 12.9908 152.554 10.747 149.455 10.747C146.356 10.747 144.13 12.9908 144.13 15.9895C144.13 18.9882 146.356 21.232 149.455 21.232Z"
+                        fill="black" />
+                    <path d="M135.56 8.50066H138.41V23.4941H135.56V8.50066Z" fill="black" />
+                    <path d="M120.063 8.50066H133.583V11.2477H128.258V23.4941H125.409V11.2477H120.063V8.50066Z"
+                        fill="black" />
+                    <path
+                        d="M109.517 8.50066H116.257L120.438 23.4941H117.588L116.59 19.8663H109.143L108.144 23.4941H105.295L109.517 8.50066ZM115.862 17.1402L114.26 11.2687H111.535L109.933 17.1402H115.862Z"
+                        fill="black" />
+                    <path d="M92.1898 8.50066H105.71V11.2477H100.385V23.4941H97.5356V11.2477H92.1898V8.50066Z"
+                        fill="black" />
+                    <path
+                        d="M81.1443 19.0092C81.2691 19.4495 81.4979 19.8689 81.8099 20.2045C82.3716 20.8126 83.3076 21.3788 84.9925 21.3788C87.4678 21.3788 88.4662 20.3722 88.4662 19.3866C88.4662 17.7929 86.0533 17.4155 83.6404 16.8912C81.2067 16.367 78.8146 15.3394 78.8146 12.5085C78.8146 10.1389 80.9155 8 84.8885 8C87.6758 8 89.2775 9.13237 90.1927 10.2438C90.7335 10.9148 91.108 11.6697 91.3368 12.4875H88.3622C88.2374 12.173 88.0502 11.8375 87.7382 11.5649C87.239 11.0826 86.3653 10.6212 84.8885 10.6212C82.642 10.6212 81.7891 11.3761 81.7891 12.3617C81.7891 13.4941 83.162 14.0183 84.8469 14.3539C87.6966 14.9201 91.4616 15.633 91.4616 19.2189C91.4616 21.7143 89.2567 23.9581 85.0133 23.9581C81.8723 23.9581 80.1043 22.7418 79.1682 21.4626C78.6274 20.7287 78.253 19.8899 78.0866 18.9672H81.1443V19.0092Z"
+                        fill="black" />
+                    <path
+                        d="M72.6787 15.9895C72.6787 11.3552 68.9553 8 63.7967 8H57.1612V24H63.7967C68.9345 23.979 72.6787 20.6238 72.6787 15.9895ZM61.883 19.9318V12.0472H63.6719C66.1472 12.0472 67.7073 13.557 67.7073 15.9895C67.7073 18.422 66.168 19.9318 63.6719 19.9318H61.883Z"
+                        fill="black" />
+                    <path
+                        d="M51.94 18.3381C52.4392 18.1075 52.8968 17.751 53.3128 17.3106C54.2489 16.346 54.7065 15.1507 54.7065 13.7457C54.7065 10.3486 52.0648 8 48.2998 8H39.7714V24H44.4932V19.3866H47.3846L49.9639 24H54.7273L51.6488 18.4849L51.94 18.3381ZM47.8422 15.5491H44.514V11.9214H47.8422C49.007 11.9214 49.8807 12.6972 49.8807 13.7248C49.8807 14.7733 49.007 15.5491 47.8422 15.5491Z"
+                        fill="black" />
+                    <path
+                        d="M15.9023 23.2159L31.8171 29.1386V23.8282L15.9023 17.9055L0 23.8282V29.1386L15.9023 23.2159Z"
+                        fill="black" />
+                    <path
+                        d="M15.9023 23.216L0 29.1386L5.90267 32L15.9023 28.2765L25.9145 32L31.8171 29.1386L15.9023 23.216Z"
+                        fill="#19C1CE" />
+                    <path d="M15.9023 8.7841L0 2.86137V8.17179L15.9023 14.0945L31.8171 8.17179V2.86137L15.9023 8.7841Z"
+                        fill="black" />
+                    <path
+                        d="M15.9023 8.7841L31.8171 2.86137L25.9145 0L15.9023 3.72358L5.90267 0L0 2.86137L15.9023 8.7841Z"
+                        fill="#19C1CE" />
+                </svg>
+
+            </div>
+            <div id="navbarNavDropdown">
+                <svg class="menu-icon" width="24" height="21" viewBox="0 0 24 21" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M23.1429 16.9167L0.857144 16.9167C0.383732 16.9167 2.9522e-07 17.2897 2.54983e-07 17.75L7.28523e-08 19.8333C3.26151e-08 20.2936 0.383732 20.6667 0.857143 20.6667L23.1429 20.6667C23.6163 20.6667 24 20.2936 24 19.8333L24 17.75C24 17.2897 23.6163 16.9167 23.1429 16.9167ZM23.1429 8.58333L0.857144 8.58333C0.383733 8.58333 1.02374e-06 8.9564 9.83506e-07 9.41666L8.01375e-07 11.5C7.61138e-07 11.9603 0.383733 12.3333 0.857144 12.3333L23.1429 12.3333C23.6163 12.3333 24 11.9603 24 11.5L24 9.41666C24 8.9564 23.6163 8.58333 23.1429 8.58333ZM23.1429 0.249998L0.857145 0.249996C0.383734 0.249996 1.75227e-06 0.62307 1.71203e-06 1.08333L1.5299e-06 3.16666C1.48966e-06 3.62692 0.383733 4 0.857145 4L23.1429 4C23.6163 4 24 3.62692 24 3.16666L24 1.08333C24 0.623072 23.6163 0.249998 23.1429 0.249998Z"
+                        fill="#19C1CE" />
+                </svg>
+
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Menu 1</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Menu 2
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Menu 3</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Menu 4</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Menu 5</a>
+                    </li>
+                    <div class="button-navbar">
+                        <div class="content-button">
+                            <button class="button-um">BUTTON</button>
+                            <div class="button-border"></div>
+                        </div>
+                        <div class="content-button">
+                            <button class="button-dois">
+                                <span>BUTTON</span>
+                                <svg width="14" height="9" viewBox="0 0 14 9" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M10.2376 0.786174L13.5492 4.13013C13.7059 4.28837 13.7059 4.54493 13.5492 4.7032L10.2376 8.04716C9.98483 8.30244 9.55263 8.12165 9.55263 7.76064V5.36214H0.734652C0.513046 5.36214 0.333374 5.18071 0.333374 4.95693V3.87637C0.333374 3.65259 0.513046 3.47116 0.734652 3.47116H9.55263V1.07266C9.55263 0.711683 9.98487 0.530892 10.2376 0.786174Z"
+                                        fill="#212429" />
+                                </svg>
+                            </button>
+                            <div class="button-border"></div>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="banner-form">
+        <section class="banner-one">
+            <div class="right-cut"></div>
+            <div class="container align-content">
+                <div class="txt-banner-one">
+                    <div class="title">
+                        <h1>Gere mais <span>oportunidades</span> <br>
+                            para seu negócio</h1>
+                    </div>
+                    <div class="paragrafo">
+                        <p>O RD Station Marketing é um software para sua empresa fazer campanhas melhores, nutrir Leads,
+                            gerar oportunidades comerciais qualificadas e alcançar mais resultados.</p>
+                    </div>
+                </div>
+                <div class="form">
+                    <h1 class="title">Comece seus 10 dias de teste grátis do RD <br> Station Marketing!</h1>
+                    <p class="subtitle">Não precisa cadastrar cartão de crédito. 😉</p>
+                    <hr>
+                    <div class="cadastro">
+                        <label for="">Diga, qual seu nome?</label>
+                        <input type="text" placeholder="Insira seu nome" /></input>
+                        <label for="">Seu email de trabalho</label>
+                        <input type="text" placeholder="Insira seu e-mail" /></input>
+                        <label for="">Seu telefone</label>
+                        <input type="text" placeholder="Insira seu número de telefone com DDD" /></input>
+                        <label for="">Seu cargo de ocupação</label>
+                        <select name="cars" id="cars">
+                            <option value="ceo">Sócio(a) / CEO / Proprietário(a)</option>
+                            <option value="diretor-vendas">Diretor(a) de Vendas</option>
+                            <option value="diretor-marketing">Diretor(a) de Marketing</option>
+                            <option value="diretor-outras-areas">Diretor(a) Outras Áreas</option>
+                            <option value="gerente-marketing">Gerente de Marketing</option>
+                            <option value="gerente-vendas">Gerente de Vendas</option>
+                            <option value="coordenador-marketing">Coordenador(a)/Supervisor(a) de Marketing</option>
+                            <option value="coordenador-vendas">Coordenador(a)/Supervisor(a) de Vendas</option>
+                            <option value="analista-marketing">Analista/Assistente de Marketing</option>
+                            <option value="analista-vendas">Analista/Assistente de Vendas</option>
+                            <option value="estudante">Estudante</option>
+                            <option value="outros-cargos">Outros Cargos</option>
+                        </select>
+                        <label for="">Crie uma senha</label>
+                        <input type="password" id="pass" name="password" pattern="[0-9a-fA-F]{4,8}" required>
+                        <label for="">Confirme sua senha</label>
+                        <input type="password" placeholder="Confirme Senha" id="confirm_password" required>
+                        <label for="">Qual o site da sua empresa?</label>
+                        <div class="radio">
+                            <input type="RADIO" name="" id="">
+                            <span>Meu site é</span>
+                        </div>
+                        <input type="text" placeholder="Insira o endereço do seu site" /></input>
+                        <div class="radio">
+                            <input type="RADIO" name="" id="">
+                            <span>Ainda não tenho site</span>
+                        </div>
+                        <ul>
+                            <li>
+                                Ao criar minha conta estou de acordo com os <a
+                                    href="https://legal.rdstation.com/pt/rdstation-services-agreement/">termos de
+                                    uso</a> do software e
+                                <a href="https://legal.rdstation.com/pt/privacy-policy/">política de privacidade</a>.
+                            </li>
+                            <li>
+                                Ao preencher o formulário, concordo em receber comunicações de acordo com meus
+                                interesses.
+                            </li>
+                            <li>
+                                *Você pode alterar suas permissões de comunicação a qualquer tempo.
+                            </li>
+                        </ul>
+                        <a href="https://app.rdstation.com.br/signup" target="_blank" class="content-button">
+                            <button class="button-um">CRIAR MINHA CONTA
+                            </button>
+                            <div class="button-border"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="banner-two">
+            <div class="left-cut"></div>
+            <div class="container">
+                <div class="txt-banner-two">
+                    <div>
+                        <div class="title">
+                            <h1>Estaremos juntos desde o primeiro passo!</h1>
+                        </div>
+                        <div class="paragrafo">
+                            <p>Se você ainda não sabe como extrair o máximo das ações digitais, não tem problema. O RD
+                                Station Marketing é mais que uma ferramenta, nos importamos com os seus resultados.
+                                Estaremos com você do planejamento até a prática!</p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="banner-three">
+            <div class="left-cut"></div>
+            <div class="container align-content">
+                <div class="foto">
+                    <div class="right-cut"></div>
+                    <img src="./img/img-rdoer.png" />
+                </div>
+                <div class="lista">
+                    <h1 class="title">Resultados previsíveis <br>
+                        e mais clientes para sua empresa
+                    </h1>
+                    <p class="subtitle">Torne sua atuação no Marketing Digital mais eficaz</p>
+                    <div>
+                        <div class="info">
+                            <svg width="18" height="14" viewBox="0 0 18 14" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M6.1136 13.1592L0.263593 7.30919C-0.0878643 6.95774 -0.0878643 6.38789 0.263593 6.0364L1.53636 4.7636C1.88781 4.4121 2.4577 4.4121 2.80915 4.7636L6.75 8.70441L15.1908 0.263593C15.5423 -0.0878643 16.1122 -0.0878643 16.4636 0.263593L17.7364 1.53639C18.0879 1.88785 18.0879 2.4577 17.7364 2.80919L7.3864 13.1592C7.0349 13.5107 6.46506 13.5107 6.1136 13.1592Z"
+                                    fill="#19C1CE" />
+                            </svg>
+                            <b>Ferramentas intuitivas</b> e com modelos prontos, vídeos explicativos e passo a passo
+                            guiado
+                        </div>
+                        <div class="info">
+                            <svg width="18" height="14" viewBox="0 0 18 14" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M6.1136 13.1592L0.263593 7.30919C-0.0878643 6.95774 -0.0878643 6.38789 0.263593 6.0364L1.53636 4.7636C1.88781 4.4121 2.4577 4.4121 2.80915 4.7636L6.75 8.70441L15.1908 0.263593C15.5423 -0.0878643 16.1122 -0.0878643 16.4636 0.263593L17.7364 1.53639C18.0879 1.88785 18.0879 2.4577 17.7364 2.80919L7.3864 13.1592C7.0349 13.5107 6.46506 13.5107 6.1136 13.1592Z"
+                                    fill="#19C1CE" />
+                            </svg>
+                            <b>Implementação com especialistas</b> focada em planejamento e prática (nos planos
+                            Marketing Pro e Enterprise)
+                        </div>
+                        <div class="info">
+                            <svg width="18" height="14" viewBox="0 0 18 14" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M6.1136 13.1592L0.263593 7.30919C-0.0878643 6.95774 -0.0878643 6.38789 0.263593 6.0364L1.53636 4.7636C1.88781 4.4121 2.4577 4.4121 2.80915 4.7636L6.75 8.70441L15.1908 0.263593C15.5423 -0.0878643 16.1122 -0.0878643 16.4636 0.263593L17.7364 1.53639C18.0879 1.88785 18.0879 2.4577 17.7364 2.80919L7.3864 13.1592C7.0349 13.5107 6.46506 13.5107 6.1136 13.1592Z"
+                                    fill="#19C1CE" />
+                            </svg>
+                            <b>Time de especialistas em Sucesso do Cliente</b> para apoiar na otimização da
+                            estratégia
+                            em cada fase da sua jornada (nos planos Marketing Pro e Enterprise)
+                        </div>
+                        <div class="info">
+                            <svg width="18" height="14" viewBox="0 0 18 14" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M6.1136 13.1592L0.263593 7.30919C-0.0878643 6.95774 -0.0878643 6.38789 0.263593 6.0364L1.53636 4.7636C1.88781 4.4121 2.4577 4.4121 2.80915 4.7636L6.75 8.70441L15.1908 0.263593C15.5423 -0.0878643 16.1122 -0.0878643 16.4636 0.263593L17.7364 1.53639C18.0879 1.88785 18.0879 2.4577 17.7364 2.80919L7.3864 13.1592C7.0349 13.5107 6.46506 13.5107 6.1136 13.1592Z"
+                                    fill="#19C1CE" />
+                            </svg>
+                            <b>Suporte técnico </b>em português, espanhol e inglês para tirar dúvidas, <b>com 97% de
+                                satisfação</b> entre nossos clientes
+                        </div>
+                        <div class="info">
+                            <svg width="18" height="14" viewBox="0 0 18 14" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M6.1136 13.1592L0.263593 7.30919C-0.0878643 6.95774 -0.0878643 6.38789 0.263593 6.0364L1.53636 4.7636C1.88781 4.4121 2.4577 4.4121 2.80915 4.7636L6.75 8.70441L15.1908 0.263593C15.5423 -0.0878643 16.1122 -0.0878643 16.4636 0.263593L17.7364 1.53639C18.0879 1.88785 18.0879 2.4577 17.7364 2.80919L7.3864 13.1592C7.0349 13.5107 6.46506 13.5107 6.1136 13.1592Z"
+                                    fill="#19C1CE" />
+                            </svg>
+                            <b>Muito conteúdo educativo,</b> eventos, cursos da <a href="">RD University</a> e
+                            comunidades para você continuar evoluindo
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="banner-four">
+        <div class="card-list"></div>
+        <div class="container">
+            <h1 class="title">A ferramenta de Automação de <br>
+                Marketing líder na América Latina
+            </h1>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+                <div class="col">
+                    <div class="card">
+                        <div class="icon">
+                            <svg width="64" height="64" viewBox="0 0 64 64" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="32" cy="32" r="32" fill="#F1F3F5" />
+                                <path
+                                    d="M48 41V43C48 43.2652 47.8946 43.5196 47.7071 43.7071C47.5196 43.8946 47.2652 44 47 44H18C17.4696 44 16.9609 43.7893 16.5858 43.4142C16.2107 43.0391 16 42.5304 16 42V21C16 20.7348 16.1054 20.4804 16.2929 20.2929C16.4804 20.1054 16.7348 20 17 20H19C19.2652 20 19.5196 20.1054 19.7071 20.2929C19.8946 20.4804 20 20.7348 20 21V40H47C47.2652 40 47.5196 40.1054 47.7071 40.2929C47.8946 40.4804 48 40.7348 48 41Z"
+                                    fill="#19C1CE" />
+                                <path
+                                    d="M45.9999 23V30.3781C45.9999 31.7144 44.3843 32.3837 43.4374 31.4406L41.4124 29.4156L35.4124 35.4156C35.0374 35.7906 34.5287 36.0013 33.9984 36.0013C33.468 36.0013 32.9594 35.7906 32.5843 35.4156L27.9999 30.8281L25.1212 33.7075C25.0283 33.8004 24.9181 33.8741 24.7967 33.9243C24.6754 33.9746 24.5453 34.0005 24.414 34.0005C24.2827 34.0005 24.1526 33.9746 24.0313 33.9243C23.9099 33.8741 23.7997 33.8004 23.7068 33.7075L22.2931 32.2938C22.2002 32.2009 22.1265 32.0906 22.0762 31.9693C22.026 31.848 22.0001 31.7179 22.0001 31.5866C22.0001 31.4552 22.026 31.3252 22.0762 31.2038C22.1265 31.0825 22.2002 30.9722 22.2931 30.8794L26.5862 26.5863C26.9613 26.2113 27.4699 26.0006 28.0003 26.0006C28.5306 26.0006 29.0393 26.2113 29.4143 26.5863L33.9999 31.1719L38.5856 26.5856L36.5624 24.5625C35.6174 23.6175 36.2868 22 37.6249 22H44.9999C45.2652 22 45.5195 22.1054 45.707 22.2929C45.8946 22.4804 45.9999 22.7348 45.9999 23Z"
+                                    fill="#19C1CE" />
+                            </svg>
+
+                        </div>
+                        <h1 class="title-card">
+                            Torne sua operação de Marketing Digital mais produtiva
+                        </h1>
+                        <div class="paragrafo">
+                            <p class="card-text" style="color:black;">
+                                Chega de usar várias ferramentas separadas e perder as informações no caminho! Somos o
+                                que chamam de ferramenta tudo-em-um: reunimos os principais recursos de Marketing
+                                Digital em um só lugar para sua operação ser mais eficaz.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-card">
+                    <div class="col">
+                        <div class="card">
+                            <div class="icon">
+                                <svg width="64" height="64" viewBox="0 0 64 64" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="32" cy="32" r="32" fill="#F1F3F5" />
+                                    <path
+                                        d="M48 30.7203C48 29.4023 47.2806 28.2638 46.2222 27.6458V19.1188C46.2222 18.6307 45.8344 17.3333 44.4444 17.3333C44.0489 17.3333 43.6561 17.466 43.3344 17.7248L38.6106 21.5195C36.2378 23.4238 33.2589 24.473 30.2222 24.473H19.5556C17.5917 24.473 16 26.0711 16 28.0429V33.3978C16 35.3696 17.5917 36.9677 19.5556 36.9677H21.4278C21.3506 37.5522 21.3067 38.1468 21.3067 38.7526C21.3067 40.971 21.8211 43.0672 22.7267 44.9408C23.015 45.5371 23.6444 45.8924 24.3044 45.8924H28.4311C29.8783 45.8924 30.7472 44.2279 29.87 43.0722C28.9589 41.8718 28.4172 40.3747 28.4172 38.7526C28.4172 38.1329 28.5072 37.5372 28.6622 36.9677H30.2222C33.2589 36.9677 36.2378 38.0169 38.61 39.9212L43.3339 43.7159C43.649 43.969 44.0404 44.1071 44.4439 44.1074C45.8283 44.1074 46.2217 42.8368 46.2217 42.3225V33.7955C47.2806 33.1769 48 32.0384 48 30.7203ZM42.6667 38.6087L40.8306 37.1339C37.8306 34.7242 34.0622 33.3978 30.2222 33.3978V28.0429C34.0622 28.0429 37.8306 26.7165 40.8306 24.3068L42.6667 22.832V38.6087Z"
+                                        fill="#19C1CE" />
+                                </svg>
+
+                            </div>
+                            <h1 class="title-card">
+                                Crie facilmente campanhas que funcionam
+                            </h1>
+                            <div class="paragrafo">
+                                <p class="card-text" style="color:black;">
+                                    É fácil usar o RD Station Marketing, porque suas funcionalidades são simples, mas
+                                    poderosas, e contam com dezenas de modelos — como de Landing Pages, Pop-ups, emails
+                                    — para diversas ocasiões e segmentos que você pode personalizar de acordo com a sua
+                                    campanha.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-card">
+                    <div class="col">
+                        <div class="card">
+                            <div class="icon">
+                                <svg width="64" height="64" viewBox="0 0 64 64" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="32" cy="32" r="32" fill="#F1F3F5" />
+                                    <path
+                                        d="M19.2 30.9841C18.5671 30.9841 17.9484 31.1718 17.4222 31.5234C16.8959 31.875 16.4858 32.3748 16.2436 32.9595C16.0014 33.5442 15.938 34.1876 16.0615 34.8084C16.185 35.4291 16.4897 35.9993 16.9373 36.4468C17.3848 36.8944 17.955 37.1991 18.5757 37.3226C19.1965 37.4461 19.8399 37.3827 20.4246 37.1405C21.0093 36.8983 21.5091 36.4881 21.8607 35.9619C22.2123 35.4357 22.4 34.817 22.4 34.1841C22.3992 33.3356 22.0618 32.5222 21.4619 31.9222C20.8619 31.3223 20.0485 30.9849 19.2 30.9841ZM23.6 34.9841H26V33.3841H23.6V34.9841ZM38.32 29.6441L39.28 30.9241L41.68 29.1241L40.72 27.8441L38.32 29.6441ZM44.8 22.1841C44.1671 22.1841 43.5484 22.3718 43.0222 22.7234C42.4959 23.075 42.0858 23.5748 41.8436 24.1595C41.6014 24.7442 41.538 25.3876 41.6615 26.0084C41.785 26.6291 42.0897 27.1993 42.5373 27.6468C42.9848 28.0944 43.555 28.3991 44.1757 28.5226C44.7965 28.6461 45.4399 28.5827 46.0246 28.3405C46.6093 28.0983 47.1091 27.6881 47.4607 27.1619C47.8123 26.6357 48 26.017 48 25.3841C47.9992 24.5356 47.6618 23.7222 47.0619 23.1222C46.4619 22.5223 45.6484 22.1849 44.8 22.1841Z"
+                                        fill="#19C1CE" />
+                                    <path
+                                        d="M44.8001 38.184C44.1082 38.1874 43.4361 38.4155 42.8851 38.834L38.0851 35.954C38.2871 35.3837 38.3935 34.784 38.4001 34.179C38.4005 33.4435 38.2559 32.7151 37.9746 32.0355C37.6933 31.3559 37.2809 30.7384 36.7608 30.2183C36.2407 29.6982 35.6232 29.2857 34.9436 29.0045C34.264 28.7232 33.5356 28.5786 32.8001 28.579C32.3893 28.581 31.98 28.6297 31.5801 28.724L29.5401 24.354C30.0367 23.8146 30.3325 23.1207 30.3777 22.3889C30.4229 21.6571 30.2148 20.932 29.7884 20.3356C29.362 19.7392 28.7433 19.3077 28.0362 19.1137C27.3291 18.9198 26.5769 18.9751 25.9058 19.2705C25.2347 19.5659 24.6858 20.0833 24.3513 20.7357C24.0168 21.3881 23.9171 22.1358 24.069 22.8531C24.2208 23.5704 24.615 24.2136 25.1852 24.6745C25.7554 25.1354 26.4669 25.3859 27.2001 25.384C27.2551 25.384 27.3051 25.369 27.3601 25.369L29.4101 29.759C28.0751 30.779 27.2001 32.374 27.2001 34.184C27.1972 35.3052 27.5318 36.4014 28.1604 37.3299C28.789 38.2584 29.6825 38.9761 30.7246 39.3899C31.7667 39.8036 32.9093 39.8941 34.0035 39.6496C35.0978 39.4051 36.0932 38.8369 36.8601 38.019L41.6501 40.894C41.5513 41.5391 41.6525 42.1989 41.94 42.7847C42.2276 43.3705 42.6877 43.8542 43.2585 44.1706C43.8292 44.4869 44.4832 44.6209 45.1324 44.5543C45.7816 44.4878 46.3948 44.224 46.8895 43.7984C47.3842 43.3728 47.7366 42.8058 47.8994 42.1739C48.0621 41.5419 48.0273 40.8752 47.7997 40.2636C47.5721 39.652 47.1626 39.1248 46.6263 38.753C46.09 38.3812 45.4527 38.1826 44.8001 38.184V38.184ZM32.8001 36.584C32.3254 36.584 31.8614 36.4432 31.4667 36.1795C31.072 35.9158 30.7644 35.541 30.5828 35.1024C30.4011 34.6639 30.3536 34.1813 30.4462 33.7158C30.5388 33.2502 30.7674 32.8226 31.103 32.4869C31.4387 32.1513 31.8663 31.9227 32.3319 31.8301C32.7974 31.7375 33.28 31.785 33.7185 31.9667C34.1571 32.1483 34.5319 32.4559 34.7956 32.8506C35.0593 33.2453 35.2001 33.7093 35.2001 34.184C35.2001 34.8205 34.9472 35.431 34.4971 35.881C34.0471 36.3311 33.4366 36.584 32.8001 36.584Z"
+                                        fill="#19C1CE" />
+                                </svg>
+                            </div>
+                            <h1 class="title-card">
+                                Construa jornadas personalizadas e gere vendas em escala
+                            </h1>
+                            <div class="paragrafo">
+                                <p class="card-text" style="color:black;">
+                                    Envie a mensagem certa na hora certa e construa jornadas personalizadas que geram
+                                    até 5x mais conversões e guiam Leads até a compra. Automatize também suas tarefas e
+                                    aumente a produtividade de Marketing e Vendas.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-card">
+                    <div class="col">
+                        <div class="card">
+                            <div class="icon">
+                                <svg width="64" height="64" viewBox="0 0 64 64" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="32" cy="32" r="32" fill="#F1F3F5" />
+                                    <path
+                                        d="M30.2669 18.9896L26.6391 26.3451L18.5224 27.5285C17.0669 27.7396 16.4836 29.534 17.5391 30.5618L23.4113 36.284L22.0224 44.3674C21.7724 45.8285 23.3113 46.9229 24.6002 46.2396L31.8613 42.4229L39.1224 46.2396C40.4113 46.9174 41.9502 45.8285 41.7002 44.3674L40.3113 36.284L46.1836 30.5618C47.2391 29.534 46.6558 27.7396 45.2002 27.5285L37.0836 26.3451L33.4558 18.9896C32.8058 17.6785 30.9224 17.6618 30.2669 18.9896Z"
+                                        fill="#19C1CE" />
+                                </svg>
+                            </div>
+                            <h1 class="title-card">
+                                Encontre automaticamente as melhores oportunidades
+                            </h1>
+                            <div class="paragrafo">
+                                <p class="card-text" style="color:black;">
+                                    Conheça melhor seu público, de acordo com as informações capturadas nas suas páginas
+                                    e formulários. Defina critérios para identificar automaticamente Leads com maior
+                                    potencial de compra e envie para o comercial oportunidades qualificadas.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-card">
+                    <div class="col">
+                        <div class="card">
+                            <div class="icon">
+                                <svg width="64" height="64" viewBox="0 0 64 64" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="32" cy="32" r="32" fill="#F1F3F5" />
+                                    <path
+                                        d="M47.0467 33.9409H33.0885L42.3844 43.2368C42.7397 43.5921 43.3244 43.6209 43.6897 43.2768C45.9661 41.1321 47.532 38.2409 47.9914 34.9909C48.0702 34.4345 47.6085 33.9409 47.0467 33.9409ZM46.1155 30.1292C45.6308 23.1021 40.0155 17.4868 32.9885 17.0021C32.452 16.9651 32.0002 17.4174 32.0002 17.9551V31.1174H45.1632C45.7008 31.1174 46.1526 30.6657 46.1155 30.1292ZM29.1767 33.9409V19.9827C29.1767 19.421 28.6832 18.9592 28.1273 19.038C21.1173 20.0286 15.7591 26.1527 16.0085 33.4921C16.265 41.0298 22.755 47.2109 30.2961 47.1162C33.2608 47.0792 36.0002 46.1239 38.2526 44.5262C38.7173 44.1968 38.7479 43.5127 38.345 43.1098L29.1767 33.9409Z"
+                                        fill="#19C1CE" />
+                                </svg>
+                            </div>
+                            <h1 class="title-card">
+                                Saia da incerteza e comprove resultados
+                            </h1>
+                            <div class="paragrafo">
+                                <p class="card-text" style="color:black;">
+                                    Ao invés de fazer uma série de ações isoladas, sem saber qual funciona, junte as
+                                    informações de todos os seus contatos e suas ações em diferentes canais com recursos
+                                    de análise para provar que Marketing Digital traz mais vendas e clientes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-card">
+                    <div class="col">
+                        <div class="card">
+                            <div class="icon">
+                                <svg width="64" height="64" viewBox="0 0 64 64" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="32" cy="32" r="32" fill="#F1F3F5" />
+                                    <path
+                                        d="M38.0312 26.5C37.125 20.9187 34.9875 17 32.5 17C30.0125 17 27.875 20.9187 26.9688 26.5H38.0312ZM26.5 32.5C26.5 33.8875 26.575 35.2188 26.7063 36.5H38.2875C38.4188 35.2188 38.4937 33.8875 38.4937 32.5C38.4937 31.1125 38.4188 29.7812 38.2875 28.5H26.7063C26.575 29.7812 26.5 31.1125 26.5 32.5ZM46.7938 26.5C45.0063 22.2562 41.3875 18.975 36.9188 17.65C38.4438 19.7625 39.4938 22.9437 40.0438 26.5H46.7938ZM28.075 17.65C23.6125 18.975 19.9875 22.2562 18.2062 26.5H24.9563C25.5 22.9437 26.55 19.7625 28.075 17.65ZM47.4625 28.5H40.2938C40.425 29.8125 40.5 31.1562 40.5 32.5C40.5 33.8438 40.425 35.1875 40.2938 36.5H47.4562C47.8 35.2188 47.9937 33.8875 47.9937 32.5C47.9937 31.1125 47.8 29.7812 47.4625 28.5ZM24.5 32.5C24.5 31.1562 24.575 29.8125 24.7063 28.5H17.5375C17.2 29.7812 17 31.1125 17 32.5C17 33.8875 17.2 35.2188 17.5375 36.5H24.7C24.575 35.1875 24.5 33.8438 24.5 32.5ZM26.9688 38.5C27.875 44.0812 30.0125 48 32.5 48C34.9875 48 37.125 44.0812 38.0312 38.5H26.9688ZM36.925 47.35C41.3875 46.025 45.0125 42.7437 46.8 38.5H40.05C39.5 42.0562 38.45 45.2375 36.925 47.35ZM18.2062 38.5C19.9938 42.7437 23.6125 46.025 28.0813 47.35C26.5563 45.2375 25.5063 42.0562 24.9563 38.5H18.2062Z"
+                                        fill="#19C1CE" />
+                                </svg>
+                            </div>
+                            <h1 class="title-card">
+                                Suporte ágil e na sua língua
+                            </h1>
+                            <div class="paragrafo">
+                                <p class="card-text" style="color:black;">
+                                    Nosso time de suporte técnico está disponível quando você precisar, com uma taxa de
+                                    satisfação de 97% entre nossos clientes e um tempo médio de resolução de 6 horas. E
+                                    o melhor: tudo isso em português.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="align-content">
+                <svg width="174" height="32" viewBox="0 0 174 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M160.48 8.50066H164.328L171.15 19.7405H171.4L171.15 17.7484V8.50066H174V23.4941H170.152L163.329 12.2543H163.08L163.329 14.2464V23.4941H160.48V8.50066Z"
+                        fill="black" />
+                    <path
+                        d="M149.455 8C154.281 8 157.754 11.502 157.754 15.9895C157.754 20.4771 154.281 23.979 149.455 23.979C144.629 23.979 141.155 20.4771 141.155 15.9895C141.155 11.502 144.608 8 149.455 8ZM149.455 21.232C152.554 21.232 154.78 18.9882 154.78 15.9895C154.78 12.9908 152.554 10.747 149.455 10.747C146.356 10.747 144.13 12.9908 144.13 15.9895C144.13 18.9882 146.356 21.232 149.455 21.232Z"
+                        fill="black" />
+                    <path d="M135.56 8.50066H138.41V23.4941H135.56V8.50066Z" fill="black" />
+                    <path d="M120.063 8.50066H133.583V11.2477H128.258V23.4941H125.409V11.2477H120.063V8.50066Z"
+                        fill="black" />
+                    <path
+                        d="M109.517 8.50066H116.257L120.438 23.4941H117.588L116.59 19.8663H109.143L108.144 23.4941H105.295L109.517 8.50066ZM115.862 17.1402L114.26 11.2687H111.535L109.933 17.1402H115.862Z"
+                        fill="black" />
+                    <path d="M92.1898 8.50066H105.71V11.2477H100.385V23.4941H97.5356V11.2477H92.1898V8.50066Z"
+                        fill="black" />
+                    <path
+                        d="M81.1443 19.0092C81.2691 19.4495 81.4979 19.8689 81.8099 20.2045C82.3716 20.8126 83.3076 21.3788 84.9925 21.3788C87.4678 21.3788 88.4662 20.3722 88.4662 19.3866C88.4662 17.7929 86.0533 17.4155 83.6404 16.8912C81.2067 16.367 78.8146 15.3394 78.8146 12.5085C78.8146 10.1389 80.9155 8 84.8885 8C87.6758 8 89.2775 9.13237 90.1927 10.2438C90.7335 10.9148 91.108 11.6697 91.3368 12.4875H88.3622C88.2374 12.173 88.0502 11.8375 87.7382 11.5649C87.239 11.0826 86.3653 10.6212 84.8885 10.6212C82.642 10.6212 81.7891 11.3761 81.7891 12.3617C81.7891 13.4941 83.162 14.0183 84.8469 14.3539C87.6966 14.9201 91.4616 15.633 91.4616 19.2189C91.4616 21.7143 89.2567 23.9581 85.0133 23.9581C81.8723 23.9581 80.1043 22.7418 79.1682 21.4626C78.6274 20.7287 78.253 19.8899 78.0866 18.9672H81.1443V19.0092Z"
+                        fill="black" />
+                    <path
+                        d="M72.6787 15.9895C72.6787 11.3552 68.9553 8 63.7967 8H57.1612V24H63.7967C68.9345 23.979 72.6787 20.6238 72.6787 15.9895ZM61.883 19.9318V12.0472H63.6719C66.1472 12.0472 67.7073 13.557 67.7073 15.9895C67.7073 18.422 66.168 19.9318 63.6719 19.9318H61.883Z"
+                        fill="black" />
+                    <path
+                        d="M51.94 18.3381C52.4392 18.1075 52.8968 17.751 53.3128 17.3106C54.2489 16.346 54.7065 15.1507 54.7065 13.7457C54.7065 10.3486 52.0648 8 48.2998 8H39.7714V24H44.4932V19.3866H47.3846L49.9639 24H54.7273L51.6488 18.4849L51.94 18.3381ZM47.8422 15.5491H44.514V11.9214H47.8422C49.007 11.9214 49.8807 12.6972 49.8807 13.7248C49.8807 14.7733 49.007 15.5491 47.8422 15.5491Z"
+                        fill="black" />
+                    <path
+                        d="M15.9023 23.2159L31.8171 29.1386V23.8282L15.9023 17.9055L0 23.8282V29.1386L15.9023 23.2159Z"
+                        fill="black" />
+                    <path
+                        d="M15.9023 23.216L0 29.1386L5.90267 32L15.9023 28.2765L25.9145 32L31.8171 29.1386L15.9023 23.216Z"
+                        fill="#19C1CE" />
+                    <path d="M15.9023 8.7841L0 2.86137V8.17179L15.9023 14.0945L31.8171 8.17179V2.86137L15.9023 8.7841Z"
+                        fill="black" />
+                    <path
+                        d="M15.9023 8.7841L31.8171 2.86137L25.9145 0L15.9023 3.72358L5.90267 0L0 2.86137L15.9023 8.7841Z"
+                        fill="#19C1CE" />
+                </svg>
+                <div class="align-network">
+                    <a href="https://twitter.com/rd_station">
+                        <svg width="24" height="21" viewBox="0 0 24 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M21.5331 5.52437C21.5483 5.73756 21.5483 5.95079 21.5483 6.16398C21.5483 12.6665 16.5991 20.1589 7.55333 20.1589C4.7665 20.1589 2.17768 19.3518 0 17.9508C0.395955 17.9965 0.776628 18.0117 1.18782 18.0117C3.48728 18.0117 5.60407 17.2351 7.29444 15.9102C5.13199 15.8645 3.31979 14.4483 2.69542 12.499C3.00001 12.5447 3.30456 12.5751 3.62439 12.5751C4.066 12.5751 4.50766 12.5142 4.9188 12.4077C2.66499 11.9508 0.974582 9.97109 0.974582 7.58022V7.51933C1.62938 7.88481 2.39087 8.11324 3.19792 8.14366C1.87304 7.26039 1.00505 5.75279 1.00505 4.04719C1.00505 3.1335 1.24866 2.29593 1.67508 1.56496C4.09642 4.54974 7.73605 6.49895 11.8172 6.71218C11.7411 6.3467 11.6954 5.96603 11.6954 5.5853C11.6954 2.87461 13.8883 0.666504 16.6142 0.666504C18.0304 0.666504 19.3096 1.26041 20.2081 2.21981C21.3198 2.00662 22.3858 1.59543 23.33 1.03199C22.9644 2.17415 22.1878 3.13354 21.1675 3.74264C22.1574 3.63609 23.1168 3.36192 24 2.98125C23.3301 3.95583 22.4924 4.82382 21.5331 5.52437Z"
+                                fill="#212429" />
+                        </svg>
+                    </a>
+
+                    <a href="https://www.facebook.com/ResultadosDigitais/">
+                        <svg width="14" height="24" viewBox="0 0 14 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12.1984 13.5L12.8649 9.15656H8.69727V6.33797C8.69727 5.14969 9.27946 3.99141 11.146 3.99141H13.0407V0.293438C13.0407 0.293438 11.3213 0 9.67743 0C6.24524 0 4.0018 2.08031 4.0018 5.84625V9.15656H0.186646V13.5H4.0018V24H8.69727V13.5H12.1984Z"
+                                fill="#212429" />
+                        </svg>
+                    </a>
+
+                    <a href="https://www.linkedin.com/company/resultadosdigitais">
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M5.10861 21.6664H0.685755V7.4235H5.10861V21.6664ZM2.8948 5.48064C1.48052 5.48064 0.333374 4.30921 0.333374 2.89492C0.333374 2.21559 0.603238 1.56408 1.0836 1.08372C1.56396 0.60336 2.21547 0.333496 2.8948 0.333496C3.57414 0.333496 4.22564 0.60336 4.70601 1.08372C5.18637 1.56408 5.45623 2.21559 5.45623 2.89492C5.45623 4.30921 4.30861 5.48064 2.8948 5.48064ZM21.6619 21.6664H17.2486V14.733C17.2486 13.0806 17.2153 10.9616 14.9491 10.9616C12.6496 10.9616 12.2972 12.7568 12.2972 14.614V21.6664H7.87909V7.4235H12.121V9.36635H12.1829C12.7734 8.24731 14.2158 7.06635 16.3677 7.06635C20.8438 7.06635 21.6667 10.014 21.6667 13.8425V21.6664H21.6619Z"
+                                fill="#212429" />
+                        </svg>
+                    </a>
+
+                    <a href="- https://www.instagram.com/resdigitais/">
+                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12.9054 6.6133C9.49938 6.6133 6.75208 9.3606 6.75208 12.7666C6.75208 16.1726 9.49938 18.9199 12.9054 18.9199C16.3114 18.9199 19.0587 16.1726 19.0587 12.7666C19.0587 9.3606 16.3114 6.6133 12.9054 6.6133ZM12.9054 16.767C10.7043 16.767 8.90493 14.973 8.90493 12.7666C8.90493 10.5602 10.699 8.76616 12.9054 8.76616C15.1118 8.76616 16.9058 10.5602 16.9058 12.7666C16.9058 14.973 15.1064 16.767 12.9054 16.767ZM20.7456 6.3616C20.7456 7.15955 20.103 7.79684 19.3104 7.79684C18.5124 7.79684 17.8751 7.1542 17.8751 6.3616C17.8751 5.56901 18.5178 4.92637 19.3104 4.92637C20.103 4.92637 20.7456 5.56901 20.7456 6.3616ZM24.821 7.81826C24.73 5.89569 24.2909 4.19269 22.8824 2.78958C21.4793 1.38648 19.7763 0.947345 17.8537 0.850948C15.8722 0.738486 9.93316 0.738486 7.95168 0.850948C6.03447 0.941989 4.33147 1.38113 2.92301 2.78423C1.51455 4.18733 1.08077 5.89033 0.984371 7.8129C0.871909 9.79438 0.871909 15.7335 0.984371 17.7149C1.07541 19.6375 1.51455 21.3405 2.92301 22.7436C4.33147 24.1467 6.02911 24.5859 7.95168 24.6823C9.93316 24.7947 15.8722 24.7947 17.8537 24.6823C19.7763 24.5912 21.4793 24.1521 22.8824 22.7436C24.2855 21.3405 24.7246 19.6375 24.821 17.7149C24.9335 15.7335 24.9335 9.79974 24.821 7.81826ZM22.2612 19.841C21.8435 20.8907 21.0348 21.6993 19.9798 22.1224C18.4 22.749 14.6512 22.6044 12.9054 22.6044C11.1595 22.6044 7.40544 22.7436 5.83096 22.1224C4.78131 21.7047 3.97266 20.896 3.54958 19.841C2.92301 18.2612 3.0676 14.5124 3.0676 12.7666C3.0676 11.0208 2.92836 7.26666 3.54958 5.69218C3.9673 4.64254 4.77596 3.83388 5.83096 3.41081C7.41079 2.78423 11.1595 2.92882 12.9054 2.92882C14.6512 2.92882 18.4053 2.78958 19.9798 3.41081C21.0294 3.82852 21.8381 4.63718 22.2612 5.69218C22.8878 7.27201 22.7432 11.0208 22.7432 12.7666C22.7432 14.5124 22.8878 18.2665 22.2612 19.841Z"
+                                fill="#212429" />
+                        </svg>
+                    </a>
+
+                    <a href="https://www.youtube.com/channel/UC5lPKvmw6-DFya_qreisENQ">
+                        <svg width="28" height="20" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M26.7761 3.60024C26.4694 2.44546 25.5658 1.53599 24.4185 1.22734C22.3389 0.666504 14 0.666504 14 0.666504C14 0.666504 5.6611 0.666504 3.58147 1.22734C2.43415 1.53603 1.53054 2.44546 1.22385 3.60024C0.666626 5.69335 0.666626 10.0604 0.666626 10.0604C0.666626 10.0604 0.666626 14.4275 1.22385 16.5206C1.53054 17.6754 2.43415 18.547 3.58147 18.8556C5.6611 19.4165 14 19.4165 14 19.4165C14 19.4165 22.3388 19.4165 24.4185 18.8556C25.5658 18.547 26.4694 17.6754 26.7761 16.5206C27.3333 14.4275 27.3333 10.0604 27.3333 10.0604C27.3333 10.0604 27.3333 5.69335 26.7761 3.60024ZM11.2727 14.0254V6.09545L18.2423 10.0605L11.2727 14.0254Z"
+                                fill="#212429" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <hr>
+            <div class="align-copiright">
+                <p>© 2021 <b>RD Station.</b> <a href="https://legal.rdstation.com/pt/privacy-policy/">Política de
+                        Privacidade.</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
